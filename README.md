@@ -12,9 +12,15 @@ python -m http.server 8000
 
 Then open http://localhost:8000.
 
+## Live site
+
+**GitHub Pages:** https://neversmile0825.github.io/SWAP/
+
+Pushes to `main` republish automatically (Pages deploys from the repository root).
+
 ## Deployment
 
-**GitHub Pages:** Upload this folder's files (index.html, assets/, css/, js/, source-art/) to the root of a repository. In Settings → Pages, deploy from the main branch root. All asset URLs are relative and work in `/repo-name/` too.
+**GitHub Pages:** This repo deploys from the `main` branch root. All asset URLs are relative and work under `/SWAP/`.
 
 **Netlify:** Drag the entire website directory onto Netlify's manual deploy page, or connect the Git repository. No build command is needed.
 
